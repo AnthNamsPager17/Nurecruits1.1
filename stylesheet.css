@@ -321,6 +321,7 @@ nav a:hover::before {
 }
 
 .anthonymain {
+  width: 1060px;
   color: orange;
   padding: 10px;
   background-color: #373f51;
