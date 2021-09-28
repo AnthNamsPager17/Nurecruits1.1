@@ -293,7 +293,7 @@ nav a:hover::before {
 
 .jeremymain {
   position: relative;
-  top: 300px;
+  top: 0px;
 }
 
 #jereprofile a {
@@ -311,21 +311,14 @@ nav a:hover::before {
   background-color: #91F291;
 }
 
-.jeremymain {
-  color: orange;
-  padding: 10px;
-  background-color: #373f51;
-  border-color: #56445D;
-  border-width: 10px;
-  border-style: solid;
-}
+
 
 #jere01 {
   text-align: justify;
   padding: 10px;
   list-style: none;
-  margin-left: 100px;
-  float: right;
+
+  float: left;
 }
 
 #jere02 {
@@ -333,21 +326,36 @@ nav a:hover::before {
   float: left;
 
   position: relative;
-  bottom: 260px;
+  top: 150px;
+  right: 600px;
 }
 
 #jereprofile {
   text-align: justify;
   position: relative;
-  right: 100px;
+  right: 400px;
+  top: 200px;
 }
 
 /*Jacobs style sheet section*/
 
 .jacobmain {
   position: relative;
-  top: 400px;
+  top: 250px;
+  right: 250px;
 }
+
+#jaco02 {
+  position: relative;
+  left: 100px;
+}
+
+#jacoprofile {
+  position: relative;
+  left: 550px;
+}
+
+
 
 
 
