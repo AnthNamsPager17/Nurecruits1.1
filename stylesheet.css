@@ -113,8 +113,28 @@ nav a:hover::before {
   width: 100%;
 }
 
+#maintitleproh1 {
+  position: relative;
+  right: 430px;
+}
+
+#maintitle p {
+  color: white;
+}
+
+#maintitle {
+  width: 1060px;
+  text-align: center;
+  color: orange;
+  padding: 10px;
+  Background-color: #373F51;
+  border-color: #56445D;
+  border-width: 10px;
+  border-style: solid;
+}
+
 /*Heading for team profile starts here*/
-.teamprofile {
+#teamprofile {
   width: 1060px;
   text-align: center;
   color: orange;
@@ -144,12 +164,16 @@ nav a:hover::before {
 
 .bradleymain {
   width: 1060px;
-  color: orange;
+  color: white;
   padding: 10px;
   background-color: #373f51;
   border-color: #56445D;
   border-width: 10px;
   border-style: solid;
+}
+
+#brad01 strong {
+  color: orange;
 }
 
 #brad01 {
@@ -168,11 +192,24 @@ nav a:hover::before {
   bottom: 310px;
 }
 
+#bradprofile strong {
+  color: orange;
+}
+
+#bradp {
+  color: orange;
+}
+
 #bradprofile {
   width: 0 auto;
   text-align: justify;
   position: relative;
   left: 0px;
+}
+
+#bradpa1{
+  position: relative;
+  left: 350px;
 }
 
 /*had to adjust last list item and link to line up wiht rest of list items*/
@@ -203,7 +240,7 @@ nav a:hover::before {
 
 .lachlanmain {
   width: 1060px;
-  color: orange;
+  color: white;
   padding: 10px;
   background-color: #373f51;
   border-color: #56445D;
@@ -219,6 +256,10 @@ nav a:hover::before {
   float: right;
 }
 
+#lach01 strong {
+  color: orange;
+}
+
 #lach02 {
   margin: 5px;
   float: left;
@@ -232,6 +273,15 @@ nav a:hover::before {
   text-align: justify;
   position: relative;
   left: 15px;
+}
+
+#lachprofile strong{
+  color: orange;
+}
+
+#lachpa1 {
+  position: relative;
+  left: 250px;
 }
 
 /* Nicholas's style sheet section*/
@@ -253,7 +303,7 @@ nav a:hover::before {
 
 .nicholasmain {
   width: 1060px;
-  color: orange;
+  color: white;
   padding: 10px;
   background-color: #373f51;
   border-color: #56445D;
@@ -267,6 +317,10 @@ nav a:hover::before {
   list-style: none;
   margin-left: 220px;
   float: right;
+}
+
+#nich01 strong {
+  color: orange;
 }
 
 #nich02 {
@@ -284,16 +338,26 @@ nav a:hover::before {
   left: 15px;
 }
 
+#nichprofile strong {
+  color: orange;
+}
+
+#nichpa1 {
+  position: relative;
+  left: 200px;
+}
+
 /*Jeremys style sheet section*/
 
 .jeremymain {
-  position: relative;
-  top: 400px;
-}
-
-.jeremymain {
-  position: relative;
-  top: 0px;
+  width: 1060px;
+  height: 600px;
+  color: white;
+  padding: 10px;
+  background-color: #373f51;
+  border-color: #56445D;
+  border-width: 10px;
+  border-style: solid;
 }
 
 #jereprofile a {
@@ -311,14 +375,22 @@ nav a:hover::before {
   background-color: #91F291;
 }
 
-
-
 #jere01 {
   text-align: justify;
   padding: 10px;
   list-style: none;
 
   float: left;
+}
+
+#jere01 strong {
+  color: orange;
+}
+
+#jerepar {
+  position: relative;
+  top: 150px;
+  right: 270px;
 }
 
 #jere02 {
@@ -333,10 +405,33 @@ nav a:hover::before {
 #jereprofile {
   text-align: justify;
   position: relative;
-  right: 400px;
+  right: 0px;
   top: 200px;
 }
 
+#jereprofile strong {
+  color: orange;
+}
+
+#pa1 {
+  position: relative;
+  left: 355px;
+}
+
+#jereh3a {
+  position: relative;
+  left: 280px;
+}
+
+#jereh3b {
+  position: relative;
+  left: 455px;
+}
+
+#jerepa1 {
+  position: relative;
+  left: 425px;
+}
 /*Jacobs style sheet section*/
 
 .jacobmain {
@@ -382,7 +477,7 @@ nav a:hover::before {
 }
 
 .anthonymain {
-  color: orange;
+  color: white;
   padding: 10px;
   background-color: #373f51;
   border-color: #56445D;
@@ -398,6 +493,10 @@ nav a:hover::before {
   float: right;
 }
 
+#anth01 strong {
+  color: orange;
+}
+
 #anth02 {
   margin: 5px;
   float: left;
@@ -410,4 +509,13 @@ nav a:hover::before {
   text-align: justify;
   position: relative;
   right: 100px;
+}
+
+#anthprofile strong {
+  color: orange;
+}
+
+#anthpa1{
+  position: relative;
+  left: 400px;
 }
