@@ -30,7 +30,7 @@ body {
   line-height: 1.5;
   height: 4000px;
   max-width: 1080px;
-  background: #FFD97D;
+  background: #000000;
   font-family: 'arial', sans-serif;
   font-weight: 400;
   margin: 0 auto;
@@ -432,33 +432,12 @@ nav a:hover::before {
   position: relative;
   left: 425px;
 }
-/*Jacobs style sheet section*/
-
-.jacobmain {
-  position: relative;
-  top: 250px;
-  right: 250px;
-}
-
-#jaco02 {
-  position: relative;
-  left: 100px;
-}
-
-#jacoprofile {
-  position: relative;
-  left: 550px;
-}
-
-
-
-
 
 /*Anthonys style sheet section*/
 
 .anthonymain{
   position: relative;
-  top: 400px;
+  bottom: 0px;
 }
 
 #anthprofile a {
@@ -477,6 +456,7 @@ nav a:hover::before {
 }
 
 .anthonymain {
+  width: 1060px;
   color: white;
   padding: 10px;
   background-color: #373f51;
@@ -518,4 +498,71 @@ nav a:hover::before {
 #anthpa1{
   position: relative;
   left: 400px;
+}
+
+/*Jacobs style sheet section*/
+
+.jacobmain {
+  position: relative;
+  bottom: 0px;
+  right: 0px;
+}
+
+.jacobmain {
+  width: 1060px;
+  color: white;
+  padding: 10px;
+  background-color: #373f51;
+  border-color: #56445D;
+  border-width: 10px;
+  border-style: solid;
+}
+
+#jaco01 {
+  text-align: justify;
+  padding: 10px;
+  list-style: none;
+  margin-left: 180px;
+  float: right;
+  }
+
+#jaco01 strong {
+  color: orange;
+}
+
+#jaco02 {
+float: left;
+color: #373f51;
+
+position: relative;
+left: 100px;
+}
+
+#jacoprofile {
+  position: relative;
+  top: 20px;
+}
+
+#jacoprofile strong {
+  color: orange;
+}
+
+#jacopa1 {
+  position: relative;
+  left: 425px;
+}
+
+#jacoprofile a {
+  color: #91F291;
+  text-decoration: none;
+}
+
+#jacoprofile a:hover {
+  color: #75DDDD;
+}
+
+#jacoprofile a::before {
+  content: '';
+  display: block;
+  background-color: #91F291;
 }
