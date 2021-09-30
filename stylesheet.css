@@ -433,6 +433,14 @@ nav a:hover::before {
   left: 425px;
 }
 
+#jerepar1 strong {
+  color: orange;
+}
+
+#jerepar strong {
+  color: orange;
+}
+
 /*Anthonys style sheet section*/
 
 .anthonymain{
