@@ -133,6 +133,11 @@ nav a:hover::before {
   border-style: solid;
 }
 
+.agendah2a {
+  position: relative;
+  right: 415px;
+}
+
 /*Heading for team profile starts here*/
 #teamprofile {
   width: 1060px;
