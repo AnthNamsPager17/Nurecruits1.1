@@ -133,6 +133,8 @@ nav a:hover::before {
   border-style: solid;
 }
 
+/*CSS for agenda-notes-actions.html file starts here*/
+
 .agendah2a {
   position: relative;
   right: 415px;
