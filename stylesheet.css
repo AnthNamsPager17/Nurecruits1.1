@@ -583,7 +583,7 @@ left: 100px;
   background-color: #91F291;
 }
 
-/*CSS for itworkhtml starts here*/
+/*CSS for itwork.html starts here*/
 
 #ith1 {
   color: orange;
@@ -600,4 +600,25 @@ left: 100px;
   border-color: #56445D;
   border-width: 10px;
   border-style: solid;
+}
+
+/*CSS for agenda-notes-actions.html starts here*/
+
+#linkformat a {
+  color: #91F291;
+  text-decoration: none;
+}
+
+#linkformat a:hover {
+  color: #75DDDD;
+}
+
+#linkformat a::before {
+  content: '';
+  display: block;
+  background-color: #91F291;
+}
+
+#linkformat ul {
+  list-style: none;
 }
