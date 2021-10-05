@@ -114,11 +114,13 @@ nav a:hover::before {
 }
 
 #maintitleproh1 {
+  text-align: justify;
   position: relative;
   right: 430px;
 }
 
 #maintitle p {
+  text-align: justify;
   color: white;
 }
 
@@ -220,12 +222,11 @@ nav a:hover::before {
 }
 
 /*had to adjust last list item and link to line up wiht rest of list items*/
-#listadjust {
+#listadjust01 {
   text-align: justify;
   position: relative;
   right: 60px;
 }
-
 
 
 /* Lachlans style sheet section*/
