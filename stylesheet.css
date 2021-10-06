@@ -584,6 +584,33 @@ left: 100px;
   background-color: #91F291;
 }
 
+/*CSS for idealjobs.html starts here*/
+
+#jobh1 {
+  color: orange;
+  position: relative;
+  right: 425px;
+}
+
+#jobmain {
+  width: 1060px;
+  text-align: Justify;
+  color: white;
+  padding: 10px;
+  Background-color: #373F51;
+  border-color: #56445D;
+  border-width: 10px;
+  border-style: solid;
+}
+
+#skilltable1 {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 60%;
+}
+
+
 /*CSS for itwork.html starts here*/
 
 #ith1 {
