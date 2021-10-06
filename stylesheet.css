@@ -653,11 +653,6 @@ width: 60%;
 
 /*CSS for autocars.html starts here*/
 
-#autoh1 {
-  color: orange;
-  position: relative;
-  right: 425px;
-}
 
 #automain {
   width: 1060px;
@@ -670,6 +665,31 @@ width: 60%;
   border-style: solid;
 }
 
+
+#automain h1 {
+  font-size: 50px;
+  width:1000px;
+  color: orange;
+  margin:0 auto;
+  text-align: center;
+
+}
+
+#automain h2 {
+  width:500px;
+  color: orange;
+  margin:0 auto;
+  text-align: center;
+
+}
+
+#automain h3 {
+  width:500px;
+  color: orange;
+  margin:0 auto;
+  text-align: center;
+
+}
 
 /*CSS for agenda-notes-actions.html starts here*/
 
