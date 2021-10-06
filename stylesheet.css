@@ -651,6 +651,26 @@ width: 60%;
   border-style: solid;
 }
 
+/*CSS for ittechnologies.html starts here*/
+
+#techh1 {
+  color: orange;
+  position: relative;
+  right: 425px;
+}
+
+#techmain {
+  width: 1060px;
+  text-align: Justify;
+  color: white;
+  padding: 10px;
+  Background-color: #373F51;
+  border-color: #56445D;
+  border-width: 10px;
+  border-style: solid;
+}
+
+
 /*CSS for agenda-notes-actions.html starts here*/
 
 #linkformat a {
