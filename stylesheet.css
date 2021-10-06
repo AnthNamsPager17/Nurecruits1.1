@@ -135,6 +135,22 @@ nav a:hover::before {
   border-style: solid;
 }
 
+
+#maintitle a {
+  color: #91F291;
+  text-decoration: none;
+}
+
+#maintitle a:hover {
+  color: #75DDDD;
+}
+
+#maintitle a::before {
+  content: '';
+  display: block;
+  background-color: #91F291;
+}
+
 /*CSS for agenda-notes-actions.html file starts here*/
 
 .agendah2a {
@@ -289,7 +305,7 @@ nav a:hover::before {
 
 #lachpa1 {
   position: relative;
-  left: 250px;
+  left: 350px;
 }
 
 /* Nicholas's style sheet section*/
