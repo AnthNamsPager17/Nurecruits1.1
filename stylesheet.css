@@ -727,3 +727,28 @@ width: 60%;
 #linkformat ul {
   list-style: none;
 }
+
+/*CSS for itwork.html starts here*/
+
+#itworkbody {
+  display: flex;
+}
+
+#itworktext {
+  width: 85%;
+
+}
+
+#itworkimages {
+  width: 15%;
+  margin-left: 10px;
+}
+
+#itworkimages img {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
