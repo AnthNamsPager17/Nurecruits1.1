@@ -5,6 +5,21 @@
   margin-right: auto;
 }
 
+a {
+  color: #91F291;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #75DDDD;
+}
+
+a:before {
+  content: '';
+  display: block;
+  background-color: #91F291;
+}
+
 *main {
   max-width: 1080px;
   max-height: none;
@@ -736,7 +751,6 @@ width: 60%;
 
 #itworktext {
   width: 85%;
-
 }
 
 #itworkimages {
@@ -746,9 +760,14 @@ width: 60%;
 
 #itworkimages img {
   display: block;
-  margin-top: 15px;
+  margin-top: 80px;
   margin-bottom: 150px;
   margin-left: auto;
   margin-right: auto;
   width: 70%;
+}
+
+#itworklinks {
+  text-align: center;
+  font-size: 12px;
 }
