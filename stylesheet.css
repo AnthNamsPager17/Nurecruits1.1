@@ -232,10 +232,6 @@ nav a:hover::before {
   bottom: 310px;
 }
 
-#bradprofile strong {
-  color: orange;
-}
-
 #bradp {
   color: orange;
 }
@@ -248,8 +244,7 @@ nav a:hover::before {
 }
 
 #bradpa1{
-  position: relative;
-  left: 350px;
+  text-align: center;
 }
 
 /*had to adjust last list item and link to line up wiht rest of list items*/
@@ -314,13 +309,8 @@ nav a:hover::before {
   left: 15px;
 }
 
-#lachprofile strong{
-  color: orange;
-}
-
 #lachpa1 {
-  position: relative;
-  left: 350px;
+  text-align: center;
 }
 
 /* Nicholas's style sheet section*/
@@ -377,13 +367,8 @@ nav a:hover::before {
   left: 15px;
 }
 
-#nichprofile strong {
-  color: orange;
-}
-
 #nichpa1 {
-  position: relative;
-  left: 200px;
+  text-align: center;
 }
 
 /*Jeremys style sheet section*/
@@ -469,12 +454,7 @@ nav a:hover::before {
 }
 
 #jerepa1 {
-  position: relative;
-  left: 425px;
-}
-
-#jerepar1 strong {
-  color: orange;
+  text-align: center;
 }
 
 #jerepar strong {
@@ -539,13 +519,8 @@ nav a:hover::before {
   right: 100px;
 }
 
-#anthprofile strong {
-  color: orange;
-}
-
 #anthpa1{
-  position: relative;
-  left: 400px;
+  text-align: center;
 }
 
 /*Jacobs style sheet section*/
@@ -591,13 +566,8 @@ left: 100px;
   top: 20px;
 }
 
-#jacoprofile strong {
-  color: orange;
-}
-
 #jacopa1 {
-  position: relative;
-  left: 425px;
+  text-align: center;
 }
 
 #jacoprofile a {
