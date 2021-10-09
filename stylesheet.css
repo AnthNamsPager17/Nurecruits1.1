@@ -130,10 +130,13 @@ nav a:hover::before {
 }
 
 #maintitleproh1 h1{
-  width: 1060px;
-  position: relative;
-  right: 380px;
+  font-size: 50px;
+  width:500px;
+  color: orange;
+  margin:0 auto;
+  text-align: center;
 }
+
 
 #maintitle p {
   text-align: justify;
@@ -593,20 +596,6 @@ left: 100px;
 
 /*CSS for idealjobs.html starts here*/
 
-#jobh1 {
-  color: orange;
-  position: relative;
-  right: 425px;
-}
-
-#jobh1 h1 {
-  width: 1060px;
-  text-align: center;
-
-  position: relative;
-  left: 60px;
-}
-
 #jobmain {
   width: 1060px;
   text-align: Justify;
@@ -618,41 +607,41 @@ left: 100px;
   border-style: solid;
 }
 
-#jobmain h2 {
-  width: 1060px;
-  text-align: center;
+
+#jobmain h1 {
+  font-size: 50px;
+  width:500px;
   color: orange;
+  margin:0 auto;
+  text-align: center;
+
 }
 
-#skilltable1 {
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 60%;
+#jobmain h2 {
+  width:500px;
+  color: orange;
+  margin:0 auto;
+  text-align: center;
+
+}
+
+#jobmain h3 {
+  width:500px;
+  color: orange;
+  margin:0 auto;
+  text-align: center;
+
+}
+
+#jobmain img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 
 /*CSS for industrydata.html starts here*/
-
-#induh1 {
-  text-align: center;
-  color: orange;
-
-  position: relative;
-  right: 372.5px;
-}
-
-#indumain h2 {
-  width: 1060px;
-  text-align: center;
-  color: orange;
-}
-
-#indumain h3{
-  width: 1060px;
-  text-align: center;
-  color: orange;
-}
 
 #indumain {
   width: 1060px;
@@ -665,6 +654,39 @@ width: 60%;
   border-style: solid;
 }
 
+
+#indumain h1 {
+  font-size: 50px;
+  width:800px;
+  color: orange;
+  margin:0 auto;
+  text-align: center;
+
+}
+
+#indumain h2 {
+  width:500px;
+  color: orange;
+  margin:0 auto;
+  text-align: center;
+
+}
+
+#indumain h3 {
+  width:500px;
+  color: orange;
+  margin:0 auto;
+  text-align: center;
+
+}
+
+
+#indumain img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
 
 
 /*CSS for itwork.html starts here*/
@@ -714,6 +736,46 @@ width: 60%;
 }
 
 
+/*CSS for ittechnologies.html starts here*/
+
+
+#techmain {
+  width: 1060px;
+  text-align: Justify;
+  color: white;
+  padding: 10px;
+  Background-color: #373F51;
+  border-color: #56445D;
+  border-width: 10px;
+  border-style: solid;
+}
+
+
+#techmain h1 {
+  font-size: 50px;
+  width:500px;
+  color: orange;
+  margin:0 auto;
+  text-align: center;
+
+}
+
+#techmain h2 {
+  width:500px;
+  color: orange;
+  margin:0 auto;
+  text-align: center;
+
+}
+
+#techmain h3 {
+  width:500px;
+  color: orange;
+  margin:0 auto;
+  text-align: center;
+
+}
+
 /*CSS for autocars.html starts here*/
 
 
@@ -753,6 +815,58 @@ width: 60%;
   text-align: center;
 
 }
+
+#automain img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+  /*CSS for projectideas.html starts here*/
+
+
+#projmain {
+    width: 1060px;
+    text-align: Justify;
+    color: white;
+    padding: 10px;
+    Background-color: #373F51;
+    border-color: #56445D;
+    border-width: 10px;
+    border-style: solid;
+  }
+
+
+  #projmain h1 {
+    font-size: 50px;
+    width:500px;
+    color: orange;
+    margin:0 auto;
+    text-align: center;
+
+  }
+
+  #projmain h2 {
+    width:500px;
+    color: orange;
+    margin:0 auto;
+    text-align: center;
+
+  }
+
+  #projmain h3 {
+    width:500px;
+    color: orange;
+    margin:0 auto;
+    text-align: center;
+
+  }
+
+  #projmain li {
+    color: orange;
+
+  }
 
 /*CSS for agenda-notes-actions.html starts here*/
 
