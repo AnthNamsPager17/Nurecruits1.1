@@ -593,6 +593,14 @@ left: 100px;
   right: 425px;
 }
 
+#jobh1 h1 {
+  width: 1060px;
+  text-align: center;
+
+  position: relative;
+  left: 60px;
+}
+
 #jobmain {
   width: 1060px;
   text-align: Justify;
@@ -651,6 +659,34 @@ width: 60%;
   border-width: 10px;
   border-style: solid;
 }
+
+#itworkbody {
+  display: flex;
+}
+
+#itworktext {
+  width: 85%;
+}
+
+#itworkimages {
+  width: 15%;
+  margin-left: 10px;
+}
+
+#itworkimages img {
+  display: block;
+  margin-top: 80px;
+  margin-bottom: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+#itworklinks {
+  text-align: center;
+  font-size: 12px;
+}
+
 
 /*CSS for autocars.html starts here*/
 
@@ -713,31 +749,14 @@ width: 60%;
   list-style: none;
 }
 
-/*CSS for itwork.html starts here*/
+/*CSS for tools.html starts here*/
 
-#itworkbody {
-  display: flex;
-}
-
-#itworktext {
-  width: 85%;
-}
-
-#itworkimages {
-  width: 15%;
-  margin-left: 10px;
-}
-
-#itworkimages img {
-  display: block;
-  margin-top: 80px;
-  margin-bottom: 150px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
-}
-
-#itworklinks {
+.workflowadj1 {
+  Width: 1000px;
   text-align: center;
-  font-size: 12px;
+}
+
+.workflowadj1 h2{
+  width: 1060px;
+  text-align: center;
 }
