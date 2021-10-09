@@ -618,6 +618,12 @@ left: 100px;
   border-style: solid;
 }
 
+#jobmain h2 {
+  width: 1060px;
+  text-align: center;
+  color: orange;
+}
+
 #skilltable1 {
 display: block;
 margin-left: auto;
@@ -629,9 +635,23 @@ width: 60%;
 /*CSS for industrydata.html starts here*/
 
 #induh1 {
+  text-align: center;
   color: orange;
+
   position: relative;
-  right: 425px;
+  right: 372.5px;
+}
+
+#indumain h2 {
+  width: 1060px;
+  text-align: center;
+  color: orange;
+}
+
+#indumain h3{
+  width: 1060px;
+  text-align: center;
+  color: orange;
 }
 
 #indumain {
