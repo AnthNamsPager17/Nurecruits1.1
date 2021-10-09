@@ -128,10 +128,10 @@ nav a:hover::before {
   width: 100%;
 }
 
-#maintitleproh1 {
-  text-align: justify;
+#maintitleproh1 h1{
+  width: 1060px;
   position: relative;
-  right: 430px;
+  right: 380px;
 }
 
 #maintitle p {
@@ -244,6 +244,7 @@ nav a:hover::before {
 }
 
 #bradpa1{
+  width: 1000px;
   text-align: center;
 }
 
@@ -310,6 +311,7 @@ nav a:hover::before {
 }
 
 #lachpa1 {
+  width: 1060px;
   text-align: center;
 }
 
@@ -368,6 +370,7 @@ nav a:hover::before {
 }
 
 #nichpa1 {
+  width: 860px;
   text-align: center;
 }
 
@@ -438,9 +441,9 @@ nav a:hover::before {
   color: orange;
 }
 
-#pa1 {
-  position: relative;
-  left: 355px;
+#jerepa1 {
+  width: 1110px;
+  text-align: center;
 }
 
 #jereh3a {
@@ -520,6 +523,7 @@ nav a:hover::before {
 }
 
 #anthpa1{
+  width: 1220px;
   text-align: center;
 }
 
