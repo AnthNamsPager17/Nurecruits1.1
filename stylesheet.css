@@ -937,5 +937,8 @@ left: 100px;
   color: orange;
   margin:0 auto;
   text-align: center;
+}
 
+#crimemain  a {
+  display: inline-block;
 }
