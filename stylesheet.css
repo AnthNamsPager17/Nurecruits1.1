@@ -899,3 +899,46 @@ left: 100px;
   width: 1060px;
   text-align: center;
 }
+
+
+/*CSS for Cybercrime starts here */
+
+#crimemain {
+  width: 1060px;
+  text-align: Justify;
+  color: white;
+  padding: 10px;
+  Background-color: #373F51;
+  border-color: #56445D;
+  border-width: 10px;
+  border-style: solid;
+}
+
+
+#crimemain  h1 {
+  font-size: 50px;
+  width:500px;
+  color: orange;
+  margin:0 auto;
+  text-align: center;
+
+}
+
+#crimemain  h2 {
+  width:500px;
+  color: orange;
+  margin:0 auto;
+  text-align: center;
+
+}
+
+#crimemain  h3 {
+  width:500px;
+  color: orange;
+  margin:0 auto;
+  text-align: center;
+}
+
+#crimemain  a {
+  display: inline-block;
+}
