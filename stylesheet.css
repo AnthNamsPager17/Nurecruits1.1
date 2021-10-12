@@ -207,6 +207,7 @@ nav a:hover::before {
 }
 
 .bradleymain {
+  text-align: left;
   width: 1060px;
   color: white;
   padding: 10px;
@@ -247,17 +248,16 @@ nav a:hover::before {
   left: 0px;
 }
 
+#bradprofile ul {
+  text-align: justify;
+  margin-left: 100px; padding: 0;
+}
+
 #bradpa1{
   width: 1000px;
   text-align: center;
 }
 
-/*had to adjust last list item and link to line up wiht rest of list items*/
-#listadjust01 {
-  text-align: justify;
-  position: relative;
-  right: 60px;
-}
 
 
 /* Lachlans style sheet section*/
