@@ -256,9 +256,9 @@ nav a:hover::before {
 #bradpa1{
   width: 1000px;
   text-align: center;
+  position: relative;
+  left: 45px;
 }
-
-
 
 /* Lachlans style sheet section*/
 
@@ -382,7 +382,7 @@ nav a:hover::before {
 
 .jeremymain {
   width: 1060px;
-  height: 600px;
+  height: 500px;
   color: white;
   padding: 10px;
   background-color: #373f51;
@@ -410,9 +410,15 @@ nav a:hover::before {
   text-align: justify;
   padding: 10px;
   list-style: none;
+  margin-right: 130px;
 
-  float: left;
+position: relative;
+left: 130px;
+bottom: 120px;
+
+  float: right;
 }
+
 
 #jere01 strong {
   color: orange;
@@ -427,18 +433,18 @@ nav a:hover::before {
 #jere02 {
   color: black;
   margin: 5px;
-  float: left;
+  float: right;
 
   position: relative;
-  top: 150px;
-  right: 600px;
+  bottom: 547.5px;
+  right: 925px;
 }
 
 #jereprofile {
   text-align: justify;
   position: relative;
-  right: 0px;
-  top: 200px;
+  right: 100px;
+  top: 130px;
 }
 
 #jereprofile strong {
@@ -448,16 +454,8 @@ nav a:hover::before {
 #jerepa1 {
   width: 1110px;
   text-align: center;
-}
-
-#jereh3a {
   position: relative;
-  left: 280px;
-}
-
-#jereh3b {
-  position: relative;
-  left: 455px;
+  top: 300px;
 }
 
 #jerepa1 {
@@ -470,9 +468,21 @@ nav a:hover::before {
 
 /*Anthonys style sheet section*/
 
-.anthonymain{
+.anthonymain {
+  width: 1060px;
+  height: 500px;
+  color: white;
+  padding: 10px;
+  background-color: #373f51;
+  border-color: #56445D;
+  border-width: 10px;
+  border-style: solid;
+}
+
+.anthonymain a {
   position: relative;
-  bottom: 0px;
+  top: 420px;
+  left: 100px;
 }
 
 #anthprofile a {
@@ -490,57 +500,41 @@ nav a:hover::before {
   background-color: #91F291;
 }
 
-.anthonymain {
-  width: 1060px;
-  color: white;
-  padding: 10px;
-  background-color: #373f51;
-  border-color: #56445D;
-  border-width: 10px;
-  border-style: solid;
-}
-
 #anth01 {
   text-align: justify;
   padding: 10px;
   list-style: none;
-  margin-left: 100px;
+  margin-right: 130px;
+
+position: relative;
+left: 130px;
+bottom: 225px;
+
   float: right;
 }
+
 
 #anth01 strong {
   color: orange;
 }
 
+
 #anth02 {
+  color: black;
   margin: 5px;
-  float: left;
+  float: right;
 
   position: relative;
-  bottom: 260px;
+  bottom: 547.5px;
+  right: 925px;
 }
 
-#anthprofile {
-  text-align: justify;
-  position: relative;
-  right: 100px;
-}
 
-#anthpa1{
-  width: 1220px;
-  text-align: center;
-}
-
-/*Jacobs style sheet section*/
-
-.jacobmain {
-  position: relative;
-  bottom: 0px;
-  right: 0px;
-}
+/*Jacobs profile starts here*/
 
 .jacobmain {
   width: 1060px;
+  height: 500px;
   color: white;
   padding: 10px;
   background-color: #373f51;
@@ -549,34 +543,10 @@ nav a:hover::before {
   border-style: solid;
 }
 
-#jaco01 {
-  text-align: justify;
-  padding: 10px;
-  list-style: none;
-  margin-left: 180px;
-  float: right;
-  }
-
-#jaco01 strong {
-  color: orange;
-}
-
-#jaco02 {
-float: left;
-color: #373f51;
-
-position: relative;
-left: 100px;
-}
-
-#jacoprofile {
+.jacobmain a {
   position: relative;
-  top: 20px;
-}
-
-#jacopa1 {
-  width: 1100px;
-  text-align: center;
+  top: 330px;
+  left: 75px;
 }
 
 #jacoprofile a {
@@ -593,6 +563,35 @@ left: 100px;
   display: block;
   background-color: #91F291;
 }
+
+#jaco01 {
+  text-align: justify;
+  padding: 10px;
+  list-style: none;
+  margin-right: 130px;
+
+position: relative;
+left: 130px;
+bottom: 360px;
+
+  float: right;
+}
+
+#jaco01 strong {
+  color: orange;
+}
+
+
+#jaco02 {
+  color: black;
+  margin: 5px;
+  float: right;
+
+  position: relative;
+  bottom: 547.5px;
+  right: 1100px;
+}
+
 
 /*CSS for idealjobs.html starts here*/
 
