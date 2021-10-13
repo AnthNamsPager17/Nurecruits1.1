@@ -973,3 +973,57 @@ bottom: 360px;
 #picturesright img {
   width: 100%;
 }
+/*CSS for Singleboard starts here */
+
+#singleboardmain {
+  width: 1060px;
+  text-align: Justify;
+  color: white;
+  padding: 10px;
+  Background-color: #373F51;
+  border-color: #56445D;
+  border-width: 10px;
+  border-style: solid;
+}
+
+
+#singleboardmain  h1 {
+  font-size: 50px;
+  width:500px;
+  color: orange;
+  margin:0 auto;
+  text-align: center;
+
+}
+
+#singleboardmain  h2 {
+  width:500px;
+  color: orange;
+  margin:0 auto;
+  text-align: center;
+
+}
+
+#singleboardmain  h3 {
+  width:500px;
+  color: orange;
+  margin:0 auto;
+  text-align: center;
+}
+
+#singleboardmain  a {
+  display: inline-block;
+}
+
+/*CSS for Footermain starts here */
+
+#footermain {
+  width: 1060px;
+  text-align: Justify;
+  color: white;
+  padding: 10px;
+  Background-color: #373F51;
+  border-color: #56445D;
+  border-width: 10px;
+  border-style: solid;
+}
