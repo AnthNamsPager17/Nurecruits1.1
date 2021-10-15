@@ -1,6 +1,9 @@
+
+
 #wholepage {
+  margin:50px;
   max-width: 1080px;
-  min-height: 1000px;
+  min-height: 0px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -22,8 +25,8 @@ a:before {
 }
 
 *main {
-  max-width: 1080px;
-  max-height: none;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .titleind {
@@ -44,7 +47,7 @@ a:before {
 
 body {
   line-height: 1.5;
-  height: 4000px;
+  height: 0;
   max-width: 1080px;
   background: #000000;
   font-family: 'arial', sans-serif;
@@ -64,7 +67,6 @@ header {
   border-color: #56445D;
   border-width: 10px;
   border-style: solid;
-
   background: #373F51;
   max-height: 220px;
 }
@@ -87,7 +89,7 @@ nav {
 }
 
 nav ul{
-  margin: 0;
+  margin: 0 auto;
   padding: 10px;
   list-style: none;
 }
@@ -392,8 +394,12 @@ nav a:hover::before {
 }
 
 #jereprofile a {
+  text-align: center;
   color: #91F291;
   text-decoration: none;
+  position: relative;
+  top: 450px;
+  right: 80px;
 }
 
 #jereprofile a:hover {
@@ -411,23 +417,15 @@ nav a:hover::before {
   padding: 10px;
   list-style: none;
   margin-right: 130px;
-
-position: relative;
-left: 130px;
-bottom: 120px;
-
+  position: relative;
+  left: 130px;
+  bottom: 120px;
   float: right;
 }
 
 
 #jere01 strong {
   color: orange;
-}
-
-#jerepar {
-  position: relative;
-  top: 150px;
-  right: 270px;
 }
 
 #jere02 {
@@ -440,29 +438,7 @@ bottom: 120px;
   right: 925px;
 }
 
-#jereprofile {
-  text-align: justify;
-  position: relative;
-  right: 100px;
-  top: 130px;
-}
-
 #jereprofile strong {
-  color: orange;
-}
-
-#jerepa1 {
-  width: 1110px;
-  text-align: center;
-  position: relative;
-  top: 300px;
-}
-
-#jerepa1 {
-  text-align: center;
-}
-
-#jerepar strong {
   color: orange;
 }
 
@@ -533,7 +509,7 @@ bottom: 225px;
 /*Jacobs profile starts here*/
 
 .jacobmain {
-  width: 1060px;
+  width: 98.20%;
   height: 500px;
   color: white;
   padding: 10px;
@@ -544,9 +520,10 @@ bottom: 225px;
 }
 
 .jacobmain a {
+  text-align: center;
   position: relative;
   top: 330px;
-  left: 75px;
+  left:90px;
 }
 
 #jacoprofile a {
@@ -568,11 +545,10 @@ bottom: 225px;
   text-align: justify;
   padding: 10px;
   list-style: none;
-  margin-right: 130px;
-
-position: relative;
-left: 130px;
-bottom: 360px;
+  margin-right: 150px;
+  position: relative;
+  left: 155px;
+  bottom: 360px;
 
   float: right;
 }
@@ -588,8 +564,8 @@ bottom: 360px;
   float: right;
 
   position: relative;
-  bottom: 547.5px;
-  right: 1100px;
+  bottom: 810px;
+  right: 900px;
 }
 
 
@@ -691,9 +667,12 @@ bottom: 360px;
 /*CSS for itwork.html starts here*/
 
 #ith1 {
+  padding: 10px;
+  text-align: center;
+  font-size: 50px;
   color: orange;
   position: relative;
-  right: 425px;
+  right: 90px;
 }
 
 #itmain {
@@ -705,9 +684,12 @@ bottom: 360px;
   border-color: #56445D;
   border-width: 10px;
   border-style: solid;
+
 }
 
 #itworkbody {
+  position: relative;
+  bottom: 80px;
   display: flex;
 }
 
@@ -946,6 +928,8 @@ bottom: 360px;
 
 #pictures {
   display: flex;
+  position: relative;
+  bottom: 50px;
 }
 
 #picturesleft {
@@ -1015,9 +999,10 @@ bottom: 360px;
   display: inline-block;
 }
 
-/*CSS for Footermain starts here */
+/*CSS for robots.html starts here*/
 
-#footermain {
+#robotsmaintitle {
+  display: inline-block;
   width: 1060px;
   text-align: Justify;
   color: white;
@@ -1026,4 +1011,424 @@ bottom: 360px;
   border-color: #56445D;
   border-width: 10px;
   border-style: solid;
+  position: relative;
+  bottom: 50px;
+}
+
+#robotsmaintitle h1 {
+  color: orange;
+  text-align: center;
+}
+
+
+/*CSS for Footers starts here */
+
+#footermain {
+  display: inline-block;
+  width: 1060px;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  Background-color: #373F51;
+  border-color: #56445D;
+  border-width: 10px;
+  border-style: solid;
+  max-height: 150px;
+  position: relative;
+  bottom: 487px;
+}
+
+#footermain a {
+  position: relative;
+  left: 35px;
+}
+
+#footermain p {
+  position: relative;
+  left: 35px;
+}
+
+
+#footermain strong {
+  color: orange;
+}
+
+#contactfooter {
+  display: inline-block;
+  width: 1060px;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  Background-color: #373F51;
+  border-color: #56445D;
+  border-width: 10px;
+  border-style: solid;
+  max-height: 150px;
+  position: relative;
+  bottom: 45px;
+}
+
+#contactfooter strong {
+  color: orange;
+}
+
+#projectfooter {
+  display: inline-block;
+  width: 1060px;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  Background-color: #373F51;
+  border-color: #56445D;
+  border-width: 10px;
+  border-style: solid;
+  max-height: 150px;
+  position: relative;
+  bottom: 50px;
+}
+
+#projectfooter strong{
+  color: orange;
+}
+
+#ittechmainfooter {
+  color: white;
+  text-align: center;
+  float: left;
+  display: inline-block;
+  width: 100%;
+  background-color: #373F51;
+  border-color: #56445D;
+  border-width: 10px;
+  border-style: solid;
+  margin: 0 auto;
+  position: relative;
+  bottom: 150px;
+}
+
+#ittechmainfooter strong {
+  color: orange;
+}
+
+#cyberfooter {
+  padding-top: 10px;
+  color: white;
+  text-align: center;
+  float: left;
+  display: inline-block;
+  width: 100%;
+  background-color: #373F51;
+  border-color: #56445D;
+  border-width: 10px;
+  border-style: solid;
+  margin: 0 auto;
+  position: relative;
+  bottom: 50px;
+}
+
+#cyberfooter strong {
+  color: orange;
+}
+
+#robotsfooter {
+  padding-top: 10px;
+  color: white;
+  text-align: center;
+  float: left;
+  display: inline-block;
+  width: 100%;
+  background-color: #373F51;
+  border-color: #56445D;
+  border-width: 10px;
+  border-style: solid;
+  margin: 0 auto;
+  position: relative;
+  bottom: 50px;
+}
+
+#robotsfooter strong {
+  color: orange;
+}
+
+#autofooter {
+  padding-top: 10px;
+  color: white;
+  text-align: center;
+  float: left;
+  display: inline-block;
+  width: 100%;
+  background-color: #373F51;
+  border-color: #56445D;
+  border-width: 10px;
+  border-style: solid;
+  margin: 0 auto;
+  position: relative;
+  bottom: 50px;
+}
+
+#autofooter strong {
+  color: orange;
+}
+
+#singleboardfooter {
+  padding-top: 10px;
+  color: white;
+  text-align: center;
+  float: left;
+  display: inline-block;
+  width: 100%;
+  background-color: #373F51;
+  border-color: #56445D;
+  border-width: 10px;
+  border-style: solid;
+  margin: 0 auto;
+  position: relative;
+  bottom: 50px;
+}
+
+#singleboardfooter strong {
+  color: orange;
+}
+
+#itworkfooter {
+  padding-top: 10px;
+  color: white;
+  text-align: center;
+  float: left;
+  display: inline-block;
+  width: 100%;
+  background-color: #373F51;
+  border-color: #56445D;
+  border-width: 10px;
+  border-style: solid;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  position: relative;
+  bottom: 0px;
+}
+
+#itworkfooter strong {
+  color: orange;
+}
+
+#industryfooter {
+  padding-top: 10px;
+  color: white;
+  text-align: center;
+  float: left;
+  display: inline-block;
+  width: 100%;
+  background-color: #373F51;
+  border-color: #56445D;
+  border-width: 10px;
+  border-style: solid;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  position: relative;
+  bottom: 50px;
+}
+
+#industryfooter strong {
+  color: orange;
+}
+
+#toolsfooter {
+  padding-top: 10px;
+  color: white;
+  text-align: center;
+  float: left;
+  display: inline-block;
+  width: 100%;
+  background-color: #373F51;
+  border-color: #56445D;
+  border-width: 10px;
+  border-style: solid;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  position: relative;
+  bottom: 50px;
+}
+
+#toolsfooter strong {
+  color: orange;
+}
+
+#jobsfooter {
+  padding-top: 10px;
+  color: white;
+  text-align: center;
+  float: left;
+  display: inline-block;
+  width: 100%;
+  background-color: #373F51;
+  border-color: #56445D;
+  border-width: 10px;
+  border-style: solid;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  position: relative;
+  bottom: 50px;
+}
+
+#jobsfooter strong {
+  color: orange;
+}
+
+/*Contactus.html starts here*/
+/*all contact info adjust*/
+/*Brads contact*/
+
+#bradcontactinfo {
+  color: white;
+  text-align: center;
+  float: left;
+  display: inline-block;
+  width: 50%;
+  background-color: #373F51;
+  border-color: #56445D;
+  border-width: 10px;
+  border-style: solid;
+  margin: 0 auto;
+}
+
+#bradcontactinfo li {
+  text-align: left;
+  list-style: none;
+}
+
+#bradcontactinfo strong {
+  color: orange;
+}
+
+
+/*lachlan contact adjust*/
+
+#lachcontactinfo {
+  color: white;
+  text-align: center;
+  float: right;
+  display: inline-block;
+  width: 50%;
+  background-color: #373F51;
+  border-color: #56445D;
+  border-width: 10px;
+  border-style: solid;
+  margin: 0 auto;
+  position: relative;
+  left: 19.5px;
+}
+
+#lachcontactinfo li {
+  text-align: left;
+  list-style: none;
+}
+
+#lachcontactinfo strong {
+  color: orange;
+}
+
+
+/*nicholas contact adjust*/
+
+#nichcontactinfo {
+  color: white;
+  text-align: center;
+  float: left;
+  display: inline-block;
+  width: 50%;
+  background-color: #373F51;
+  border-color: #56445D;
+  border-width: 10px;
+  border-style: solid;
+  margin: 0 auto;
+}
+
+#nichcontactinfo li {
+  text-align: left;
+  list-style: none;
+}
+
+#nichcontactinfo strong {
+  color: orange;
+}
+
+/*Jeremy contact adjust*/
+
+#jerecontactinfo {
+  color: white;
+  text-align: center;
+  float: right;
+  display: inline-block;
+  width: 50%;
+  background-color: #373F51;
+  border-color: #56445D;
+  border-width: 10px;
+  border-style: solid;
+  margin: 0 auto;
+  position: relative;
+  left: 19.5px;
+}
+
+#jerecontactinfo li {
+  text-align: left;
+  list-style: none;
+}
+
+#jerecontactinfo strong {
+  color: orange;
+}
+
+/*Anthony contact adjust*/
+
+#anthcontactinfo {
+  color: white;
+  text-align: center;
+  float: left;
+  display: inline-block;
+  width: 50%;
+  background-color: #373F51;
+  border-color: #56445D;
+  border-width: 10px;
+  border-style: solid;
+  margin: 0 auto;
+}
+
+#anthcontactinfo li {
+  text-align: left;
+  list-style: none;
+}
+
+#anthcontactinfo strong {
+  color: orange;
+}
+
+/*Jacob contact adjust*/
+
+#jacocontactinfo {
+  color: white;
+  text-align: center;
+  float: right;
+  display: inline-block;
+  width: 50%;
+  background-color: #373F51;
+  border-color: #56445D;
+  border-width: 10px;
+  border-style: solid;
+  margin: 0 auto;
+  position: relative;
+  left: 19.5px;
+}
+
+#jacocontactinfo li {
+  text-align: left;
+  list-style: none;
+}
+
+#jacocontactinfo strong {
+  color: orange;
+}
+
+#allcontactinfo {
+  position: relative;
+  bottom: 45px;
 }
