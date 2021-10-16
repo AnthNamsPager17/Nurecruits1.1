@@ -459,7 +459,7 @@ nav a:hover::before {
 
 .anthonymain {
   width: 1060px;
-  height: 500px;
+  height: 550px;
   color: white;
   padding: 10px;
   background-color: #373f51;
@@ -470,7 +470,7 @@ nav a:hover::before {
 
 .anthonymain a {
   position: relative;
-  top: 420px;
+  top: 480px;
   left: 100px;
 }
 
