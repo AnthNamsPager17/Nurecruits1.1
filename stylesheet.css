@@ -134,6 +134,8 @@ nav a:hover::before {
 }
 
 #maintitleproh1 h1{
+  text-decoration: underline;
+  text-underline-position: under;
   font-size: 50px;
   width:500px;
   color: orange;
@@ -141,6 +143,15 @@ nav a:hover::before {
   text-align: center;
 }
 
+#maintitle h2 {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+#teamprofile h2 {
+  text-decoration: underline;
+  text-underline-position: under;
+}
 
 #maintitle p {
   text-align: justify;
@@ -586,6 +597,8 @@ bottom: 225px;
 
 
 #jobmain h1 {
+  text-decoration: underline;
+  text-underline-position: under;
   font-size: 50px;
   width:500px;
   color: orange;
@@ -595,6 +608,8 @@ bottom: 225px;
 }
 
 #jobmain h2 {
+  text-decoration: underline;
+  text-underline-position: under;
   width:500px;
   color: orange;
   margin:0 auto;
@@ -603,6 +618,8 @@ bottom: 225px;
 }
 
 #jobmain h3 {
+  text-decoration: underline;
+  text-underline-position: under;
   width:500px;
   color: orange;
   margin:0 auto;
@@ -633,6 +650,8 @@ bottom: 225px;
 
 
 #indumain h1 {
+  text-decoration: underline;
+  text-underline-position: under;
   font-size: 50px;
   width:800px;
   color: orange;
@@ -642,6 +661,8 @@ bottom: 225px;
 }
 
 #indumain h2 {
+  text-decoration: underline;
+  text-underline-position: under;
   width:500px;
   color: orange;
   margin:0 auto;
@@ -650,6 +671,9 @@ bottom: 225px;
 }
 
 #indumain h3 {
+  text-decoration: underline;
+  text-underline-position: under;
+  padding-top: 10px;
   width:500px;
   color: orange;
   margin:0 auto;
@@ -659,6 +683,7 @@ bottom: 225px;
 
 
 #indumain img {
+  padding-top: 20px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -669,6 +694,8 @@ bottom: 225px;
 /*CSS for itwork.html starts here*/
 
 #ith1 {
+  text-decoration: underline;
+  text-underline-position: under;
   padding: 10px;
   text-align: center;
   font-size: 50px;
@@ -734,6 +761,8 @@ bottom: 225px;
 
 
 #techmain h1 {
+  text-decoration: underline;
+  text-underline-position: under;
   font-size: 50px;
   width:500px;
   color: orange;
@@ -743,6 +772,8 @@ bottom: 225px;
 }
 
 #techmain h2 {
+  text-decoration: underline;
+  text-underline-position: under;
   width:500px;
   color: orange;
   margin:0 auto;
@@ -751,6 +782,8 @@ bottom: 225px;
 }
 
 #techmain h3 {
+  text-decoration: underline;
+  text-underline-position: under;
   width:500px;
   color: orange;
   margin:0 auto;
@@ -774,6 +807,8 @@ bottom: 225px;
 
 
 #automain h1 {
+  text-decoration: underline;
+  text-underline-position: under;
   font-size: 50px;
   width:1000px;
   color: orange;
@@ -783,6 +818,8 @@ bottom: 225px;
 }
 
 #automain h2 {
+  text-decoration: underline;
+  text-underline-position: under;
   width:500px;
   color: orange;
   margin:0 auto;
@@ -791,6 +828,8 @@ bottom: 225px;
 }
 
 #automain h3 {
+  text-decoration: underline;
+  text-underline-position: under;
   width:500px;
   color: orange;
   margin:0 auto;
@@ -821,6 +860,8 @@ bottom: 225px;
 
 
   #projmain h1 {
+    text-decoration: underline;
+    text-underline-position: under;
     font-size: 50px;
     width:500px;
     color: orange;
@@ -830,6 +871,8 @@ bottom: 225px;
   }
 
   #projmain h2 {
+    text-decoration: underline;
+    text-underline-position: under;
     width:500px;
     color: orange;
     margin:0 auto;
@@ -838,6 +881,8 @@ bottom: 225px;
   }
 
   #projmain h3 {
+    text-decoration: underline;
+    text-underline-position: under;
     width:500px;
     color: orange;
     margin:0 auto;
@@ -846,7 +891,7 @@ bottom: 225px;
   }
 
   #projmain li {
-    color: orange;
+    color: white;
 
   }
 
@@ -879,8 +924,20 @@ bottom: 225px;
 }
 
 .workflowadj1 h2{
+  text-decoration: underline;
+  text-underline-position: under;
   width: 1060px;
   text-align: center;
+}
+
+.workflowadj1 h1 {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.workflowadj1 h3 {
+  text-decoration: underline;
+  text-underline-position: under;
 }
 
 
@@ -899,6 +956,8 @@ bottom: 225px;
 
 
 #crimemain  h1 {
+  text-decoration: underline;
+  text-underline-position: under;
   font-size: 50px;
   width:500px;
   color: orange;
@@ -908,6 +967,8 @@ bottom: 225px;
 }
 
 #crimemain  h2 {
+  text-decoration: underline;
+  text-underline-position: under;
   width:500px;
   color: orange;
   margin:0 auto;
@@ -916,6 +977,8 @@ bottom: 225px;
 }
 
 #crimemain  h3 {
+  text-decoration: underline;
+  text-underline-position: under;
   width:500px;
   color: orange;
   margin:0 auto;
@@ -974,6 +1037,8 @@ bottom: 225px;
 
 
 #singleboardmain  h1 {
+  text-decoration: underline;
+  text-underline-position: under;
   font-size: 50px;
   width:500px;
   color: orange;
@@ -983,6 +1048,8 @@ bottom: 225px;
 }
 
 #singleboardmain  h2 {
+  text-decoration: underline;
+  text-underline-position: under;
   width:500px;
   color: orange;
   margin:0 auto;
@@ -991,6 +1058,8 @@ bottom: 225px;
 }
 
 #singleboardmain  h3 {
+  text-decoration: underline;
+  text-underline-position: under;
   width:500px;
   color: orange;
   margin:0 auto;
@@ -1018,6 +1087,8 @@ bottom: 225px;
 }
 
 #robotsmaintitle h1 {
+  text-decoration: underline;
+  text-underline-position: under;
   font-size: 50px;
   color: orange;
   text-align: center;
@@ -1434,4 +1505,24 @@ bottom: 225px;
 #allcontactinfo {
   position: relative;
   bottom: 45px;
+}
+
+#allcontactinfo h1 {
+  display: inline-block;
+  text-align: center;
+  text-decoration: underline;
+  text-underline-position: under;
+  padding-bottom: 20px;
+  color: orange;
+  width: 100%;
+  background-color: #373F51;
+  border-color: #56445D;
+  border-width: 10px;
+  border-style: solid;
+  margin: 0 auto;
+  font-size: 50px;
+}
+
+#conth1 {
+
 }
