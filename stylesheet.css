@@ -848,7 +848,8 @@ bottom: 225px;
 
 
 #projmain {
-    width: 1060px;
+    text-indent: 1.5px;
+    width: 1080px;
     text-align: Justify;
     color: white;
     padding: 10px;
@@ -891,7 +892,10 @@ bottom: 225px;
   }
 
   #projmain li {
+    max-width: 1020px;
     color: white;
+    position: relative;
+    left: 20px;
 
   }
 
@@ -1148,7 +1152,7 @@ bottom: 225px;
 
 #projectfooter {
   display: inline-block;
-  width: 1060px;
+  width: 1080px;
   text-align: center;
   color: white;
   padding: 10px;
@@ -1374,6 +1378,13 @@ bottom: 225px;
   color: orange;
 }
 
+#bradskill {
+  float: right;
+  margin: 12.5px;
+  position: relative;
+  top: 2.5px;
+}
+
 
 /*lachlan contact adjust*/
 
@@ -1401,6 +1412,15 @@ bottom: 225px;
   color: orange;
 }
 
+#lachskill {
+  box-sizing: content-box;
+  width:50%
+  float: left;
+  margin: 12.5px;
+  position: relative;
+  left: 25px;
+  top:22.5px;
+}
 
 /*nicholas contact adjust*/
 
